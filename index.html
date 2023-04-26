@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Assignment3</title>
+    <script src="https://kit.fontawesome.com/4180bcae04.js" crossorigin="anonymous"></script>
+    <link rel="styleSheet" href="basic.css">
+</head>
+<body>
+    <div id="sidebyside">
+        <div id="small"><h2>STOPWATCH</h2></div>
+        <div id="in">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Timer</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <br>
+        <button id="aa">Click here for instructions to open or close</button>
+        <table id="centerblock">
+            <tr>
+                <td class="top"><div class="block"><span id="sin1">00</span><br><h4>Days</h4></div></td>
+                <td class="top"><div class="block"><span id="sin2">00</span><br><h4>Hours</h4></div></td>
+                <td class="top"><div class="block"><span id="sin3">00</span><br><h4>Minutes</h4></div></td>
+                <td class="top"><div class="block"><span id="sin4">00</span><br><h4>Seconds</h4></div></td>
+            </tr>
+            <tr>
+                <td class="bottom" ><span id="in1" contenteditable="true" oninput="handleInput()">0</span></td>
+                <td class="bottom" ><span id="in2" contenteditable="true" oninput="handleInput()">0</span></td>
+                <td class="bottom" ><span id="in3" contenteditable="true" oninput="handleInput()">0</span></td>
+                <td class="bottom" ><span id="in4" contenteditable="true" oninput="handleInput()">0</span></td>
+            </tr>
+        </table>
+    </div>
+    <div id="btnsinline">
+        <button id="set" onclick="settimer()">Set Timer</button>
+        <button id="start" onclick="start()">Start/Resume</button>
+        <button id="pause" onclick="paused()">Pause</button>
+        <button id="reset" onclick="reset()">Reset</button>
+    </div>
+    <div id="instructions">
+        <h2>Instructions</h2>
+        <p>
+            <ol>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter the values in the inputs</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Press the settimer button to set the timer</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Press the start/resume button to start the timer</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pause the timer if you want to pause</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Press start/resume button to resume the timer</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Press the reset button to reset the values</li>
+            </ol>
+        </p>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

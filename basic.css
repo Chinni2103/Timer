@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: skyblue;
+    height: 100vh;
+overflow-y: auto;
+  }
+#sidebyside{
+    display: flex;
+    justify-content: space-between;
+    background-color: #02152d;
+    color: white;
+}
+#aa{
+    margin-left: 50px;
+    background-color: #02152d;
+    color: white;
+    text-decoration: none;
+}
+#small{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+#in{
+    margin-top: 15px;
+}
+#in li{
+    font-size: large;
+    display: inline;
+    margin-right: 40px;
+}
+.block{
+    width:200px;
+    height: 150px;
+    background-color:#02152d ;
+    color:white;
+    border-radius: 10px;
+   padding-top: 40px;
+  
+}
+#centerblock{
+    margin-top: 10px;
+    
+}
+table{
+    margin-left: 130px;
+}
+td{
+   
+  /* border: 1px solid black;*/
+    text-align: center;
+}
+.top{
+    padding: 110px 50px 0px 50px;
+
+}
+.top span{
+    font-size: 70px;
+    display: inline-block; 
+    height:70px; 
+    width: 150px;
+   /* border: 1px solid white;*/
+}
+.bottom{
+    padding: 30px 100px 50px 100px;
+}
+.bottom span{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    display: inline-block; 
+    height: 25px; 
+    width: 40px;
+    border: 1px solid #ccc; 
+    padding: 10px;
+    border-radius: 3px;
+}
+#btnsinline{
+    display:inline;
+    margin-left: 40%;
+}
+#btnsinline button{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+#set{
+    background-color: #02152d;
+    border-color: #02152d;
+}
+#start{
+    background-color: rgb(235, 34, 235);
+    border-color:rgb(235, 34, 235) ;
+}
+#reset{
+    background-color: red;
+    border-color: red;
+}
+#pause{
+    background-color: rgb(6, 128, 251);
+    border-color:rgb(6, 128, 251) ;
+}
+#instructions h2{
+    margin-left:60px;
+}
+#instructions{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 0;
+   background-color: #02152d;
+   color: white;
+   
+}
+#right{
+    float: right;
+    
+}
+#size{
+    font-weight: bolder;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    color: #ccc;
+}
